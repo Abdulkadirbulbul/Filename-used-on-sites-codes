@@ -80,7 +80,7 @@ namespace webautomasion
                     }
                     else if (dizi[i] == 'Ç')
                     {
-                        dizi[i] = 'c';
+                        dizi[i] = 'C';
                     }
                     else if (dizi[i] == 'ç')
                     {
@@ -93,6 +93,10 @@ namespace webautomasion
                     else if (dizi[i] == 'ğ')
                     {
                         dizi[i] = 'g';
+                    }
+                    else if (dizi[i] == ','|| dizi[i] == '?'||dizi[i] == '#'||dizi[i] == ',')
+                    {
+                        dizi[i] ='-';
                     }
 
                 }
